@@ -1,9 +1,10 @@
 import random
 import tensorflow as tf
 from keras import backend
-from keras.utils import data_utils
-from keras.utils import layer_utils
-from keras.engine import data_adapter
+from tensorflow.python.keras.engine import data_adapter
+from tensorflow.python.keras.utils import data_utils
+from tensorflow.python.keras.utils import layer_utils
+
 from keras import layers
 import numpy as np
 from matplotlib import cm
